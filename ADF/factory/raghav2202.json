@@ -1,0 +1,9 @@
+{
+	"name": "raghav2202",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "861a0b45-41bf-4343-9fd3-e7b178657627",
+		"tenantId": "2800c0a0-70e9-49be-8733-faeaa6aced99"
+	}
+}

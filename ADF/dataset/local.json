@@ -1,0 +1,24 @@
+{
+	"name": "local",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "local_to_adf",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"item": {
+				"type": "String"
+			}
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "",
+			"table": {
+				"value": "@dataset().item",
+				"type": "Expression"
+			}
+		}
+	}
+}

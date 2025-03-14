@@ -1,0 +1,21 @@
+{
+	"name": "Snowflake1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SnowflakeV2",
+		"typeProperties": {
+			"authenticationType": "Basic",
+			"accountIdentifier": "JZIEZLY-ER86308",
+			"user": "RAGHAV",
+			"database": "RideSharing",
+			"warehouse": "COMPUTE_WH",
+			"role": "ACCOUNTADMIN",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI1ZGIzMTEwNi04YzAwLTQ0NDMtOGI0ZS1jOTVlMDU4YzJiNDQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "IntegrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
