@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: datatype_conversion
+    description: "Model for converting customer_id to integer and selecting company and customer name after dropping null values."
+    columns:
+      - name: customer_id
+        description: "Customer ID converted to integer."
+      - name: COMPANY
+        description: "Company of the customer."
+      - name: CUSTOMERNAME
+        description: "Name of the customer."
+    tags:
+      - basic
+      - staging

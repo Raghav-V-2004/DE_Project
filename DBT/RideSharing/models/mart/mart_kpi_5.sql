@@ -1,0 +1,1 @@
+select  distinct customer_id,customername,  fiscalyear from {{ ref('transform_kpi_5') }} order by fiscalyear

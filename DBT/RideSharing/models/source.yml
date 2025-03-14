@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: dbo
+    database: RIDESHARING
+    schema: RAW
+    tables:
+      - name: country
+      - name: customers
+      - name: transactions
+      - name: products

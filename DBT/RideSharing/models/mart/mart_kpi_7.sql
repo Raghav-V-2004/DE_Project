@@ -1,0 +1,1 @@
+select * from {{ ref('transform_kpi_7') }} order by ranking

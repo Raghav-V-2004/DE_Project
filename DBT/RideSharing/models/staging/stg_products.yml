@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: dropping_null_values
+    description: "Model for selecting all products where product_id is not null."
+    columns:
+      - name: product_id
+        description: "Unique identifier for the product."
+      - name: other_columns
+        description: "Other columns from the products table."
+    tags:
+      - basic
+      - staging

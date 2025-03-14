@@ -1,0 +1,43 @@
+version: 2
+
+models:
+  - name: datatype_conversion
+    description: "Model for converting customer_id, revenue_type, revenue, and quantity to appropriate data types and selecting relevant columns from transactions."
+    columns:
+      - name: customer_id
+        description: "Customer ID converted to integer."
+      - name: product_id
+        description: "Unique identifier for the product."
+      - name: PAYMENT_MONTH
+        description: "Month of the payment."
+      - name: REVENUE_TYPE
+        description: "Revenue type converted to integer."
+      - name: REVENUE
+        description: "Revenue converted to decimal."
+      - name: QUANTITY
+        description: "Quantity converted to integer."
+      - name: DIMENSION_1
+        description: "Additional dimension 1."
+      - name: DIMENSION_2
+        description: "Additional dimension 2."
+      - name: DIMENSION_3
+        description: "Additional dimension 3."
+      - name: DIMENSION_4
+        description: "Additional dimension 4."
+      - name: DIMENSION_5
+        description: "Additional dimension 5."
+      - name: DIMENSION_6
+        description: "Additional dimension 6."
+      - name: DIMENSION_7
+        description: "Additional dimension 7."
+      - name: DIMENSION_8
+        description: "Additional dimension 8."
+      - name: DIMENSION_9
+        description: "Additional dimension 9."
+      - name: DIMENSION_10
+        description: "Additional dimension 10."
+      - name: COMPANIES
+        description: "Companies involved in the transaction."
+    tags:
+      - basic
+      - staging

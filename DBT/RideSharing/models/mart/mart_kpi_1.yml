@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: NumberOfLogos
+    description: "Model for counting the number of distinct customer logos per fiscal year."
+    columns:
+      - name: fiscalyear
+        description: "Fiscal year of the transactions."
+      - name: NumberOfLogos
+        description: "Count of distinct customer logos per fiscal year."
+    tags:
+      - basic
+      - staging

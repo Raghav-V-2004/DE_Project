@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: datatype_conversion
+    description: "Model for converting customer_id to integer and selecting country and region."
+    columns:
+      - name: customer_id
+        description: "Customer ID converted to integer."
+      - name: country
+        description: "Country of the customer."
+      - name: region
+        description: "Region of the customer."
+    tags:
+      - basic
+      - staging
